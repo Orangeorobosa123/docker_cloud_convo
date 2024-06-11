@@ -1,5 +1,5 @@
 #<h1> CloudConvo DevOps Project... </h1>
-#<h2> Also Merci!!! Good morning Cynthia my love. .Wow!!!!!!Bye for now Thankyou....</h2>
+#<h2> Also Merci!!! Good morning. .Wow!!!!!!Bye for now Thankyou....</h2>
 
 <html>
   <head>

@@ -3,7 +3,7 @@ pipeline {
 
   environment {
        imagename = "ericxtx/dockerhubrepo"
-       registryCredential = 'Dockerhub'
+       registryCredential = 'dockerhub'
        dockerImage = ''
            }
 

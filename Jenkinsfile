@@ -2,8 +2,8 @@ pipeline {
   agent any
 
   environment {
-       imagename = "ericxtx/dockerhubrepo"
-       registryCredential = 'dockerhub'
+       imagename = "orobosa/customizedtomcatimage"
+       registryCredential = 'Dockerhub'
        dockerImage = ''
            }
 
@@ -44,6 +44,7 @@ pipeline {
      stage('Remove Unused docker image') {
           steps{
               sh "docker rmi $imagename:$BUILD_NUMBER"
+               
                         }
             }  
    }
